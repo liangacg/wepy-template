@@ -1,0 +1,22 @@
+<template>
+</template>
+
+<script>
+  import wepy from '@wepy/core'
+  import store from '../store';
+  import { mapState, mapActions } from '@wepy/x';
+
+    wepy.page({
+        data:{}
+        })
+</script>
+<style lang="less">
+</style>
+<config>
+{
+    navigationBarTitleText: '主页',
+    navigationBarBackgroundColor: '#4eeee4',
+    usingComponents: {
+    }
+}
+</config>
